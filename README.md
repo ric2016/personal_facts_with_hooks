@@ -1,7 +1,7 @@
 
 # Webtrees Custom Module: Facts and Events
 
-This [webtrees](https://www.webtrees.net/) custom module providing an extended 'Facts and Events' tab, with hooks for other custom modules.
+This [webtrees](https://www.webtrees.net/) custom module provides an extended 'Facts and Events' tab, with hooks for other custom modules.
 The project’s website is [cissee.de](https://cissee.de).
 
 ## Contents
