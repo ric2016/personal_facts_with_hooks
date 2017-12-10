@@ -15,14 +15,17 @@ The project’s website is [cissee.de](https://cissee.de).
 
 Mainly intended as a base for other custom modules. Some features are available independently:
 
-* Fixes [Webtrees issue #1192](https://github.com/fisharebest/webtrees/issues/1192). When 'Events of close relatives' are activated, the inverse associations and relationships are also displayed:
+* Links to external maps (Google, Bing, OpenStreetMap) are configurable via module administration.
+
+* Facts and events of inverse associates are also configurable. For these facts and events, the inverse associations and relationships are also displayed:
 
 ![FactsAndEventsExt1](FactsAndEventsExt1.PNG)
-* Links to external maps (Google, Bing, OpenStreetMap) are configurable via module administration.
+
+* Fixes [Webtrees issue #1192](https://github.com/fisharebest/webtrees/issues/1192).
 
 ### Download<a name="download"/>
 
-* Current version: 1.7.9.9
+* Current version: 1.7.9.10
 * Based on and tested with webtrees 1.7.9, may also work with older 1.7.x versions.
 * Requires the Hooks module ('hooks_repackaged', or the original Hooks module via webtrees-geneajaubart).
 * Download the zipped module, including all required dependencies, [here](https://cissee.de/cissee.webtrees.custom.models.latest.zip).
