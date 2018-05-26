@@ -17,6 +17,14 @@ Mainly intended as a base for other custom modules. Some features are available 
 
 * Links to external maps (Google, Bing, OpenStreetMap) are configurable via module administration.
 
+* The respective location data is obtained directly from the gedcom, and may also be provided by other custom modules via the 'hPlacesGetLatLon' hook. 
+
+* If you have collected location data via the Google Maps module, simply activate the 'Google Maps Module Location Data Provider' custom module to make this data available.
+
+* If you have multiple custom modules providing location data, you can change their priority via the Hooks module configuration:
+
+![Screenshot](hooks.png)
+
 * Facts and events of inverse associates are also configurable. For these facts and events, the inverse associations and relationships are also displayed:
 
 ![FactsAndEventsExt1](FactsAndEventsExt1.PNG)
@@ -25,16 +33,17 @@ Mainly intended as a base for other custom modules. Some features are available 
 
 ### Download<a name="download"/>
 
-* Current version: 1.7.9.13
+* Current version: 1.7.9.14
 * Based on and tested with webtrees 1.7.9, may also work with older 1.7.x versions.
 * Requires the Hooks module ('hooks_repackaged', or the original Hooks module via webtrees-geneajaubart).
-* Download the zipped module, including all required dependencies, [here](https://cissee.de/vesta.latest.zip).
+* Requires the 'vesta_common_lib' module.
+* Download the zipped module, including all related modules, [here](https://cissee.de/vesta.latest.zip).
 * Support, suggestions, feature requests: <ric@richard-cissee.de>
 * Issues also via <https://github.com/ric2016/personal_facts_with_hooks/issues>
 
 ### Installation<a name="installation"/>
 
-* Unzip the files and copy them to the modules_v3 folder of your webtrees installation. All required modules are included in the zip file. It's safe to overwrite the respective directories if they already exist (they are bundled with other custom modules as well), as long as other custom models using these dependencies are also upgraded to their respective latest versions.
+* Unzip the files and copy them to the modules_v3 folder of your webtrees installation. All related modules are included in the zip file. It's safe to overwrite the respective directories if they already exist (they are bundled with other custom modules as well), as long as other custom models using these dependencies are also upgraded to their respective latest versions.
 * Enable the extended 'Facts and Events' module via Control Panel -> Modules -> Module Administration -> Facts and Events.
 * Enable the Hooks module via Control Panel -> Modules -> Module Administration -> Hooks. Make sure all hooks are selected (in the preferences of the Hooks module).				
 * Configure the visibility of the old and the extended 'Facts and Events' tab via Control Panel -> Modules -> Tabs (they both appear as 'Facts and Events' here - usually, you'll want to use only one of them. You may just disable the old 'Facts and Events' module altogether).
