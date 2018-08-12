@@ -33,8 +33,8 @@ Mainly intended as a base for other custom modules. Some features are available 
 
 ### Download<a name="download"/>
 
-* Current version: 1.7.9.14
-* Based on and tested with webtrees 1.7.9, may also work with older 1.7.x versions.
+* Current version: 1.7.10.1
+* Based on and tested with webtrees 1.7.10, may also work with older 1.7.x versions.
 * Requires the Hooks module ('hooks_repackaged', or the original Hooks module via webtrees-geneajaubart).
 * Requires the 'vesta_common_lib' module.
 * Download the zipped module, including all related modules, [here](https://cissee.de/vesta.latest.zip).
@@ -54,6 +54,7 @@ Mainly intended as a base for other custom modules. Some features are available 
 * Copyright (C) 2016 to 2018 Richard Cissée
 * Derived from **webtrees** - Copyright (C) 2010 to 2016  webtrees development team.
 * Derived from **webtrees-geneajaubart** - Copyright (C) 2009 to 2016  Jonathan Jaubart.
+* French translations provided by Ghezibde.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
